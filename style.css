@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .dark-theme {
+    background-color: #121212;
+    color: white;
+  }
+  
+  .light-theme {
+    background-color: #f8f9fa;
+    color: black;
+  }
+  
+  table {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .table-dark th, .table-dark td {
+    border-color: #444;
+  }
+  
+  .table-dark tbody tr {
+    background-color: #222;
+  }
+  
+  .table-dark tbody tr:nth-child(even) {
+    background-color: #333;
+  }
+  
+  #price {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  p small {
+    color: #888;
+    font-size: 0.9em;
+  }
+  
+  /* Custom switch label for dark/light mode */
+  .form-check-label {
+    font-size: 1em;
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  
+  /* Price indicators styling */
+  .row .col p {
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+  
+  .row .col small {
+    font-weight: normal;
+    color: #bbb;
+  }
